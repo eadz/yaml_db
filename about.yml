@@ -1,0 +1,5 @@
+author: Brandon Arbini of Sevenwire. Original: Orion Henry and Adam Wiggins of Heroku.
+summary: Dumps and loads a database-independent data dump format in db/development.yml.
+homepage: http://github.com/sevenwire/yaml_db
+license: MIT
+rails_version: 1.2+
