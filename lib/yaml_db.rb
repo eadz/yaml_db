@@ -1,9 +1,9 @@
 module YamlDb
-  def self.dump(filename, tables=nil)
+  def self.dump(filename, tables=[])
     ActiveRecord::Base.connection.yamldb_dump(File.new(filename, "w"), tables)
   end
 
-  def self.load(filename, tables=nil)
+  def self.load(filename, tables=[])
     ActiveRecord::Base.connection.yamldb_load(File.new(filename, "r"), tables)
   end
 end

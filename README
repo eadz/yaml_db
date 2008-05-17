@@ -14,7 +14,7 @@ rake db:data:load   ->   Load contents of db/development.yml into the database
 
 == Other Uses
 
-rake db:data:dump DUMPFILE=snapshot   -> Dump contents of Rails database to db/snapshot.yml
+rake db:data:dump DATAFILE=snapshot   -> Dump contents of Rails database to db/snapshot.yml
 rake db:data:load RAILS_ENV=test      -> Loads the contents of db/test.yml into the database
 rake db:data:dump TABLES=users,articles,comments  -> Dump contents of tables users, articles, and comments to db/development.yml
 
